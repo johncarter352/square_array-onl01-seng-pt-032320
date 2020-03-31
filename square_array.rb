@@ -7,3 +7,5 @@ def square_array(array)
 array_show
 end
 
+numbers = [1,2,3]
+numbers.collect {|n| n**2}
